@@ -9,3 +9,19 @@ Aslında GitHub pages'te notlarımı tutayım fikrinden hareketle jekyll öneril
 ## Useful links
 
 [About wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+
+## Add-on notes
+
+### Webrick needed to run the website locally with jekyll
+
+```sh
+bundle add webrick
+```
+
+### Command to run website locally
+
+To locally serve the site
+
+```sh
+bundle exec jekyll serve
+```
