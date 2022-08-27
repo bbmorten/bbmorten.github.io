@@ -25,3 +25,7 @@ To locally serve the site
 ```sh
 bundle exec jekyll serve
 ```
+
+### Jekyll Template Used
+
+[Starter Template](https://github.com/bbmorten/mm-github-pages-starter/)
