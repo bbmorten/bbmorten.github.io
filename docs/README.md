@@ -29,3 +29,9 @@ bundle exec jekyll serve
 ### Jekyll Template Used
 
 [Starter Template](https://github.com/bbmorten/mm-github-pages-starter/)
+
+Lokalde çalışmadı. Ancak GitHub Pages'te sorun olmadı.
+
+### Jekyll Step-by-step tutorial çalışıldı. 
+
+[Step-by-step Tutorial](https://jekyllrb.com/docs/step-by-step/03-front-matter/)

@@ -1,0 +1,2 @@
+# Nmap 7.92 scan initiated Sun Aug 28 14:11:11 2022 as: nmap -sS -p - -T4 -A -oA /Users/bulent/git-repos/bbmorten.github.io/scans/ns2turkiyetcpscan-29082022 -PE -PS22,80,443,8080 -PA80,443,8080 -PU 53 ns2.turkiye.gov.tr
+# Nmap done at Sun Aug 28 14:11:15 2022 -- 2 IP addresses (0 hosts up) scanned in 3.99 seconds

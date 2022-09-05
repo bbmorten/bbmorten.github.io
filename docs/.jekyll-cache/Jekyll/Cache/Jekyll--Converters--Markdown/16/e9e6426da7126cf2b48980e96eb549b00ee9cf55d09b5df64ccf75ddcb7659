@@ -1,0 +1,127 @@
+I"¼<h1 id="nmap-notes">NMAP Notes</h1>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="finding-public-ip-address-by-using-nslookup-and-opendns">Finding public IP address by using nslookup and OpenDNS</h3>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">liks@smidk%nslookup myip.opendns.com resolver1.opendns.com
+Server:  resolver1.opendns.com
+</span><span class="gp">Address: 208.67.222.222#</span>53
+<span class="go">
+Non-authoritative answer:
+Name: myip.opendns.com
+Address: 24.133.130.40
+</span></code></pre></div></div>
+
+<h3 id="use-ripenet">Use Ripe.net</h3>
+
+<p>Go to ripe search engine and query the ip address <a href="https://apps.db.ripe.net/db-web-ui/query?searchtext=24.133.130.40">24.133.130.40</a></p>
+
+<h3 id="execute-a-reverse-dns-lookup-over-an-ip-address-range">Execute a reverse-DNS lookup over an IP address range.</h3>
+
+<p>```console
+bulent@Bulents-MacBook-Pro-M1 docs % nmap -sL 217.68.217.0/24
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-08-28 13:28 +03
+Nmap scan report for 217.68.217.0
+Nmap scan report for 217.68.217.1
+Nmap scan report for 217.68.217.2
+Nmap scan report for 217.68.217.3
+Nmap scan report for ig.com.tr (217.68.217.4)
+Nmap scan report for 217.68.217.5
+Nmap scan report for 217.68.217.6
+Nmap scan report for 217.68.217.7
+Nmap scan report for 217.68.217.8
+Nmap scan report for igaranti.com.tr (217.68.217.9)
+Nmap scan report for 217.68.217.10
+Nmap scan report for 217.68.217.11
+Nmap scan report for isube.garanti.com.tr (217.68.217.12)
+Nmap scan report for isube.assets.garanti.com.tr (217.68.217.13)
+Nmap scan report for 217.68.217.14
+Nmap scan report for 217.68.217.15
+Nmap scan report for 217.68.217.16
+Nmap scan report for 217.68.217.17
+Nmap scan report for 217.68.217.18
+Nmap scan report for 217.68.217.19
+Nmap scan report for www.garantibbvasakla.com (217.68.217.20)
+Nmap scan report for 217.68.217.21
+Nmap scan report for 217.68.217.22
+Nmap scan report for 217.68.217.23
+Nmap scan report for 217.68.217.24
+Nmap scan report for www.garantibank.ro (217.68.217.25)
+Nmap scan report for 217.68.217.26
+Nmap scan report for 217.68.217.27
+Nmap scan report for 217.68.217.28
+Nmap scan report for 217.68.217.29
+Nmap scan report for 217.68.217.30
+Nmap scan report for csb.garanti.com.tr (217.68.217.31)
+Nmap scan report for wap3.garanti.com.tr (217.68.217.32)
+Nmap scan report for 217.68.217.33
+Nmap scan report for drws.garanti.com.tr (217.68.217.34)
+Nmap scan report for msube.garanti.com.tr (217.68.217.35)
+Nmap scan report for msubeassets.garanti.com.tr (217.68.217.36)
+Nmap scan report for igr.garanti.com.tr (217.68.217.37)
+Nmap scan report for 217.68.217.38
+Nmap scan report for 217.68.217.39
+Nmap scan report for 217.68.217.40
+Nmap scan report for 217.68.217.41
+Nmap scan report for 217.68.217.42
+Nmap scan report for 217.68.217.43
+Nmap scan report for 217.68.217.44
+Nmap scan report for 217.68.217.45
+Nmap scan report for 217.68.217.46
+Nmap scan report for 217.68.217.47
+Nmap scan report for 217.68.217.48
+Nmap scan report for 217.68.217.49
+Nmap scan report for 217.68.217.50
+Nmap scan report for 217.68.217.51
+Nmap scan report for 217.68.217.52
+Nmap scan report for 217.68.217.53
+Nmap scan report for 217.68.217.54
+Nmap scan report for 217.68.217.55
+Nmap scan report for 217.68.217.56
+Nmap scan report for 217.68.217.57
+Nmap scan report for 217.68.217.58
+Nmap scan report for 217.68.217.59
+Nmap scan report for 217.68.217.60
+Nmap scan report for 217.68.217.61
+Nmap scan report for assets.garantibbva.com.tr (217.68.217.62)
+Nmap scan report for 217.68.217.63
+Nmap scan report for 217.68.217.64
+Nmap scan report for 217.68.217.65
+Nmap scan report for 217.68.217.66
+Nmap scan report for 217.68.217.67
+Nmap scan report for 217.68.217.68
+Nmap scan report for 217.68.217.69
+Nmap scan report for 217.68.217.70
+Nmap scan report for 217.68.217.71
+Nmap scan report for 217.68.217.72
+Nmap scan report for 217.68.217.73
+Nmap scan report for 217.68.217.74
+Nmap scan report for 217.68.217.75
+Nmap scan report for 217.68.217.76
+Nmap scan report for 217.68.217.77
+Nmap scan report for subeform-j8.garanti.com.tr (217.68.217.78)
+Nmap scan report for subeformonay-j8.garanti.com.tr (217.68.217.79)
+Nmap scan report for 217.68.217.80
+Nmap scan report for 217.68.217.81
+Nmap scan report for 217.68.217.82
+Nmap scan report for publicwebsite.garantibbva.com.tr (217.68.217.83)
+Nmap scan report for 217.68.217.84
+Nmap scan report for 217.68.217.85
+Nmap scan report for 217.68.217.86
+Nmap scan report for 217.68.217.87
+Nmap scan report for 217.68.217.88
+Nmap scan report for 217.68.217.89
+Nmap scan report for 217.68.217.90
+Nmap scan report for sso.garantibank.ro (217.68.217.91)
+Nmap scan report for 217.68.217.92
+Nmap scan report for 217.68.217.93
+Nmap scan report for 217.68.217.94
+â€¦
+Nmap scan report for 217.68.217.251
+Nmap scan report for 217.68.217.252
+Nmap scan report for 217.68.217.253
+Nmap scan report for isubebeta.garanti.com.tr (217.68.217.254)
+Nmap scan report for 217.68.217.255
+Nmap done: 256 IP addresses (0 hosts up) scanned in 0.39 seconds</p>
+:ET

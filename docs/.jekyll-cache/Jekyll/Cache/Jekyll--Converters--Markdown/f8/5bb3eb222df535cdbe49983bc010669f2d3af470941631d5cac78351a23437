@@ -1,0 +1,19 @@
+I"	<h1 id="nmap-notes">NMAP Notes</h1>
+
+<h2 id="examples">Examples</h2>
+
+<h3 id="finding-public-ip-address-by-using-nslookup-and-opendns">Finding public IP address by using nslookup and OpenDNS</h3>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">liks@smidk%nslookup myip.opendns.com resolver1.opendns.com
+Server:  resolver1.opendns.com
+</span><span class="gp">Address: 208.67.222.222#</span>53
+<span class="go">
+Non-authoritative answer:
+Name: myip.opendns.com
+Address: 24.133.130.40
+</span></code></pre></div></div>
+
+<h3 id="use-ripenet">Use Ripe.net</h3>
+
+<p>Go to ripe search engine and query the ip address <a href="https://apps.db.ripe.net/db-web-ui/query?searchtext=24.133.130.40">24.133.130.40</a></p>
+:ET
