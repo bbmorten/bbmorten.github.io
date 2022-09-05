@@ -1,0 +1,12 @@
+I"–<h1 id="jekyll-notes">JEKYLL Notes</h1>
+
+<h2 id="tips">Tips</h2>
+
+<h3 id="start-a-new-website">Start a new website</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>bundler jekyll
+jekyll new new-website
+<span class="nb">cd </span>new-website
+bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+:ET
