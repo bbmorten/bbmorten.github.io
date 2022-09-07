@@ -13,6 +13,7 @@ ieuser: liks@smidk
 gem install bundler jekyll
 jekyll new new-website
 cd new-website
+bundle add webrick
 bundle exec jekyll serve --port 4500 --livereload 
 ```
 
@@ -25,6 +26,8 @@ bundle init
 bundle config set --local path 'vendor/bundle'
 bundle add jekyll
 bundle exec jekyll new --force --skip-bundle .
+bundle add webrick
 bundle install
+bundle exec jekyll serve --port 4600
 ```
 
