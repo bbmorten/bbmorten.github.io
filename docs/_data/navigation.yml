@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.hmtl
+- name: Nmap
+  link: /nmap.hmtl
+- name: Grep
+  link: /grep.hmtl
+- name: Jekyll
+  link: /jekyll.hmtl

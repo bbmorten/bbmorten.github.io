@@ -1,0 +1,17 @@
+<nav>
+    <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>
+      Home
+    </a>
+    <a href="/about.html" {% if page.url == "/about.html" %}style="color: red;"{% endif %}>
+      About
+    </a>
+    <a href="/nmap.html" {% if page.url == "/nmap.html" %}style="color: red;"{% endif %}>
+        Nmap
+      </a>
+      <a href="/grep.html" {% if page.url == "/grep.html" %}style="color: red;"{% endif %}>
+        Grep
+      </a>
+      <a href="/jekyll.html" {% if page.url == "/jekyll.html" %}style="color: red;"{% endif %}>
+        Jekyll
+      </a>
+  </nav>
