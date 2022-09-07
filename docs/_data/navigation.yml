@@ -1,10 +1,14 @@
 - name: Home
   link: /
 - name: About
-  link: /about.hmtl
+  link: /about.html
 - name: Nmap
-  link: /nmap.hmtl
+  link: /nmap.html
 - name: Grep
-  link: /grep.hmtl
+  link: /grep.html
 - name: Jekyll
-  link: /jekyll.hmtl
+  link: /jekyll.html
+- name: Posts
+  link: /blog.html
+- name: Staff
+  link: /staff.html

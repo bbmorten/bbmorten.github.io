@@ -1,46 +1,4 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>JEKYLL Notes</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-
-</head>
-
-<body>
-    <nav>
-    
-      <a href="/" >
-        Home
-      </a>
-    
-      <a href="/about.html" >
-        About
-      </a>
-    
-      <a href="/nmap.html" >
-        Nmap
-      </a>
-    
-      <a href="/grep.html" >
-        Grep
-      </a>
-    
-      <a href="/jekyll.html" class="current">
-        Jekyll
-      </a>
-    
-      <a href="/blog.html" >
-        Posts
-      </a>
-    
-      <a href="/staff.html" >
-        Staff
-      </a>
-    
-  </nav>
-  <h1 id="jekyll-notes">JEKYLL Notes</h1>
+I"Ù<h1 id="jekyll-notes">JEKYLL Notes</h1>
 
 <h2 id="tips">Tips</h2>
 
@@ -66,7 +24,4 @@ bundle <span class="nb">install
 </span>bundle <span class="nb">exec </span>jekyll serve <span class="nt">--port</span> 4600
 </code></pre></div></div>
 
-
-</body>
-
-</html>
+:ET
