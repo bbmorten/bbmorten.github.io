@@ -12,3 +12,5 @@
   link: /blog.html
 - name: Staff
   link: /staff.html
+- name: MkDocs
+  link: /mkdocs/site
